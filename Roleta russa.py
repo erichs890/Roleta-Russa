@@ -28,7 +28,7 @@ def tiro():
     if random.randint(0,6)== 3:
         Tchau = Label(text="tchau paizin")
         Tchau.pack()
-        # os.system('shutdown -s -t 00')
+        os.system('shutdown -s -t 01')
 
 janela = Tk()
 janela.geometry('300x300')
