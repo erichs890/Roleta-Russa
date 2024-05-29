@@ -1,7 +1,6 @@
 import os
 import random
 from tkinter import *
-# Restante do seu código...
 
 def desligar():
     os.system('shutdown -s -t 00')
